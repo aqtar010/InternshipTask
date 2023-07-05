@@ -17,6 +17,21 @@ To run this application there are some prerequisites to be configured for this t
 - Set the enviornment variables
 - Create an empty token.json file in root directory
 
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`CLIENT_ID`: 
+CLient ID generated after creating OAuth 2.0 Client ID
+
+`CLIENT_SECRET`: 
+CLient secret generated after creating OAuth 2.0 Client ID
+
+`REDIRECT_URIS`:Authorized redirect URI set creating of OAuth 2.0 Client ID
+
+`AUTH_USER_EMAIL_ID`:   Your Gmail ID
+
+`APP_PASS`:App pass key generated 
 ## Run Locally
 
 Clone the project
@@ -45,7 +60,7 @@ Initial run will generate a link, copy the link and go to your logged in browser
 
 copy the code generated in the url and paste it onto the console and hit enter
 
-Congrats, you have your own nodejs Automated email respose application
+Congrats you have your own nodejs Automated email respose application
 
 
 ## Tech Stack
